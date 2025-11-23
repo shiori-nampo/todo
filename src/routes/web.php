@@ -14,4 +14,13 @@ use App\Http\Controllers\TodoController;
 |
 */
 
-Route::get('/',[TodoController::class,'index']);
+Route::middleware('auth')->group(function() {
+    Route::get('/',[TodoController::class,'index']);
+});
+Route::get('/login',function() {
+    return view('auth.login');
+})->name('login');
+
+Route::get('/register',function() {
+    return view('auth.register');
+})->name('register');

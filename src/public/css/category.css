@@ -1,69 +1,53 @@
-.todo__alert--success {
+.category__alert--success {
     padding: 10px 30px;
     border-color: #badbcc;
     background-color: #d1e7dd;
     color: #0f5132;
 }
 
-.todo__alert--danger {
+.category__alert--danger {
     padding: 10px 0;
     border-color: #f5c2c7;
     background-color: #f8d7da;
     color: #842029;
 }
 
-.todo__alert--danger ul {
+.category__alert--danger ul {
     margin:0;
 }
 
-.todo__content {
+.category__content {
     margin: 0 auto;
-    padding: 30px 15px;
+    padding: 60px 15px;
     max-width: 1230px;
 }
 
-.section__title {
-    width: 70%;
-    margin: 0 auto;
-}
-
-.create-form, .search-form {
+.category-form {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     width: 70%;
     text-align: center;
-    margin-bottom: 15px;
 }
 
-.create-form__item, .search-form__item {
+.category-form__input {
+    width: 100%;
+    padding: 10px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.category-form__item {
     width: 70%;
     display: flex;
 }
 
-.create-form__input, .search-form__input {
-    padding: 10px;
-    width: 70%;
-    height: 40px;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-    margin-right: 10px;
-}
-
-.create-form__select, .search-form__select {
-    width:30%;
-    padding: 10px;
-    height: 40px;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-    appearance: none;
-}
-
-.create-form__submit, .search-form__button {
+.category-form__submit {
     width: 20%;
 }
 
-.create-form__button, .search-form__submit {
+.category-form__button {
     padding: 10px;
     width: 100%;
     height: 40px;
@@ -74,36 +58,29 @@
     cursor: pointer;
 }
 
-
-
-.todo-table {
+.category-table {
     margin: 30px auto;
     width: 100%;
     text-align: left;
 }
 
-.todo-table__inner {
+.category-table__inner {
     width: 70%;
     margin: 0 auto;
 }
 
-.todo-table__row {
+.category-table__row {
     border-bottom: 1px solid #ddd;
-
 }
 
-.todo-table__header {
+.category-table__header {
     padding: 12px;
     width: 20%;
     text-align: left;
     font-weight: bold;
 }
 
-.todo-table__header-span {
-    margin-right: 40%;
-}
-
-.todo-table__item:first-of-type {
+.category-table__item:first-of-type {
     padding: 12px;
     width: 90%;
 }
@@ -121,22 +98,17 @@
 
 .update-form__input {
     width: 100%;
-    outline: none;
+    outline:none;
     border: none;
 }
 
-.update-form__item-p {
-    text-align: left;
-    font-size: 13px;
-}
-
-.update-form__button {
+.update-form__submit {
     width: 50px;
 }
 
-.update-form__submit {
+.update-form__button {
     padding: 5px;
-    width: 100%;
+    width:100%;
     border: none;
     border-radius: 3px;
     background: #0000ff;
@@ -144,11 +116,11 @@
     cursor: pointer;
 }
 
-.delete-form__button {
+.delete-form__submit {
     width: 50px;
 }
 
-.delete-form__submit {
+.delete-form__button {
     padding: 5px;
     width: 100%;
     border: none;

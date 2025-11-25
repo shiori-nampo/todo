@@ -22,13 +22,15 @@ font-size: 24px;
 }
 
 .header-utilities nav {
-width: 18%;
+width: auto;
 }
 
 .header-nav {
 display: flex;
 align-items: center;
-justify-content: space-between;
+gap: 20px;
+justify-content:flex-end;
+flex-wrap:nowrap;
 }
 
 .header-nav__link {

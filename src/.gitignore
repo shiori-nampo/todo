@@ -21,7 +21,7 @@ yarn-error.log
 /bootstrap/cache/*.php
 
 # Docker 関連（コンテナ・MySQL データなど）
-/docker/mysql/data/
+docker/mysql/data/
 /docker/nginx/logs/
 /docker/php/logs/
 

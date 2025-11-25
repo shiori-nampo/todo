@@ -23,4 +23,4 @@ Todoの作成・更新・削除とカテゴリ管理ができます。
 
 ## ER図
 [ER図](doc/er_diagram.drawio)
-(※このER図はGitHub上では直接表示できません。VScodeやdraw.ioで開いて確認してください) 
+(※このER図はGitHub上では直接表示できません。VScodeやdraw.ioで開いて確認してください)
